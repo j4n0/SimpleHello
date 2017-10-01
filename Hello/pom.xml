@@ -10,17 +10,7 @@
     <artifactId>Hello</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Hello</name>
-    <url>http://maven.apache.org</url>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-        </dependency>
-    </dependencies>
+    <url>https://github.com/j4n0/SimpleHello</url>
     <build>
         <sourceDirectory>src/Hello</sourceDirectory>
         <plugins>
@@ -28,12 +18,20 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
-                    <executable>java</executable>
+                    <executable>${JAVA_HOME}/bin/java</executable>
                     <arguments>
-                        <argument>-classpath</argument>
-                        <classpath/>
-                        <argument>com.example.app.Hello</argument>
+                        <argument>--module-path</argument>
+                        <modulepath/>
+                        <argument>--module</argument>
+                        <argument>Hello/com.example.app.Hello</argument>
                     </arguments>
                 </configuration>
             </plugin>
