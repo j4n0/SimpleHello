@@ -9,6 +9,7 @@
   <modules>
     <module>Hello</module>
     <module>HelloTest</module>
+    <module>Algorithms</module>
   </modules>
   <build>
       <plugins>
