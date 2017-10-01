@@ -8,6 +8,7 @@
   <name>SimpleHello</name>
   <modules>
     <module>Hello</module>
+    <module>HelloTest</module>
   </modules>
   <build>
       <plugins>

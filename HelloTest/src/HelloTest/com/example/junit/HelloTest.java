@@ -1,8 +1,10 @@
-package com.example.app;
+package com.example.junit;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+
+import com.example.app.Hello;
 
 public class HelloTest extends TestCase
 {
@@ -18,6 +20,7 @@ public class HelloTest extends TestCase
 
     public void testHello()
     {
+        new Hello();
         assertTrue( true );
     }
 }
