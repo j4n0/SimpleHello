@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Algorithms" />
         <module name="Hello" />
         <module name="HelloTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Algorithms" target="1.9" />
       <module name="Hello" target="1.9" />
       <module name="HelloTest" target="1.9" />
       <module name="SimpleHello" target="1.9" />

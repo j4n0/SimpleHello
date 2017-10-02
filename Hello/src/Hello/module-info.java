@@ -1,7 +1,7 @@
 
 module Hello {
     requires java.logging;
-    requires algorithms;
+    requires Algorithms;
     exports com.example.app;
     uses algorithms.sort.Sortable;
 }

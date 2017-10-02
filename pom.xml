@@ -7,9 +7,9 @@
   <packaging>pom</packaging>
   <name>SimpleHello</name>
   <modules>
+    <module>Algorithms</module>
     <module>Hello</module>
     <module>HelloTest</module>
-    <module>Algorithms</module>
   </modules>
   <build>
       <plugins>

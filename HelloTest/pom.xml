@@ -32,6 +32,7 @@
     </dependencies>
     <build>
         <sourceDirectory>src/HelloTest</sourceDirectory>
+        <outputDirectory>${project.build.directory}/classes/HelloTest</outputDirectory>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>

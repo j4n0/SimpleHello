@@ -11,8 +11,16 @@
     <version>1.0-SNAPSHOT</version>
     <name>Hello</name>
     <url>https://github.com/j4n0/SimpleHello</url>
+    <dependencies>
+        <dependency>
+            <groupId>com.example.app</groupId>
+            <artifactId>Algorithms</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <build>
         <sourceDirectory>src/Hello</sourceDirectory>
+        <outputDirectory>${project.build.directory}/classes/Hello</outputDirectory>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -26,7 +34,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <executable>${JAVA_HOME}/bin/java</executable>
+                    <executable>java</executable>
                     <arguments>
                         <argument>--module-path</argument>
                         <modulepath/>
