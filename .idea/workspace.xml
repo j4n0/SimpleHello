@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="813bbf5c-154e-4a23-a559-7863f97637ed" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Algorithms/src/algorithms/sort/BubbleSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Algorithms/src/algorithms/sort/Sortable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Algorithms/src/module-info.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/Algorithms.iml" afterPath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello/Hello.iml" afterPath="$PROJECT_DIR$/Hello/Hello.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello/Makefile" afterPath="$PROJECT_DIR$/Hello/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/pom.xml" afterPath="$PROJECT_DIR$/Algorithms/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello/pom.xml" afterPath="$PROJECT_DIR$/Hello/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello/src/Hello/com/example/app/Hello.java" afterPath="$PROJECT_DIR$/Hello/src/Hello/com/example/app/Hello.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello/src/Hello/module-info.java" afterPath="$PROJECT_DIR$/Hello/src/Hello/module-info.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloTest/HelloTest.iml" afterPath="$PROJECT_DIR$/HelloTest/HelloTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloTest/Makefile" afterPath="$PROJECT_DIR$/HelloTest/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloTest/pom.xml" afterPath="$PROJECT_DIR$/HelloTest/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleHello.iml" afterPath="$PROJECT_DIR$/SimpleHello.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/HelloTest/target/" />
     <ignored path="$PROJECT_DIR$/Hello/target/" />
@@ -50,28 +36,28 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hello/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="15" column="81" lean-forward="false" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hello/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="81" lean-forward="false" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HelloTest/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-305">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="414">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -169,9 +155,9 @@
         <option value="$PROJECT_DIR$/Hello/Makefile" />
         <option value="$PROJECT_DIR$/HelloTest/Makefile" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Hello/pom.xml" />
         <option value="$PROJECT_DIR$/Algorithms/pom.xml" />
         <option value="$PROJECT_DIR$/HelloTest/pom.xml" />
-        <option value="$PROJECT_DIR$/Hello/pom.xml" />
       </list>
     </option>
   </component>
@@ -712,26 +698,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hello/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="81" lean-forward="false" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="270">
+          <caret line="15" column="81" lean-forward="false" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HelloTest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="414">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
           <folding />
         </state>
       </provider>

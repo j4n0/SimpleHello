@@ -20,7 +20,7 @@
     </dependencies>
     <build>
         <sourceDirectory>src/Hello</sourceDirectory>
-        <outputDirectory>${project.build.directory}/classes/Hello</outputDirectory>
+        <outputDirectory>${project.build.directory}/classes/${project.artifactId}</outputDirectory>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>

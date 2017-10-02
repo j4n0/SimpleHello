@@ -13,6 +13,6 @@
     <url>https://github.com/j4n0/SimpleHello</url>
     <build>
         <sourceDirectory>src/Algorithms</sourceDirectory>
-        <outputDirectory>${project.build.directory}/classes/Algorithms</outputDirectory>
+        <outputDirectory>${project.build.directory}/classes/${project.artifactId}</outputDirectory>
     </build>
 </project>

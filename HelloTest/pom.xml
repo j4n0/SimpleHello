@@ -32,7 +32,7 @@
     </dependencies>
     <build>
         <sourceDirectory>src/HelloTest</sourceDirectory>
-        <outputDirectory>${project.build.directory}/classes/HelloTest</outputDirectory>
+        <outputDirectory>${project.build.directory}/classes/${project.artifactId}</outputDirectory>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
