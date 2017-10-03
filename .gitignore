@@ -23,4 +23,5 @@ hs_err_pid*
 
 Algorithms/target
 Hello/target
+HelloLogger/target
 HelloTest/target

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hello/Hello.iml" filepath="$PROJECT_DIR$/Hello/Hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloLogger/HelloLogger.iml" filepath="$PROJECT_DIR$/HelloLogger/HelloLogger.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloTest/HelloTest.iml" filepath="$PROJECT_DIR$/HelloTest/HelloTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleHello.iml" filepath="$PROJECT_DIR$/SimpleHello.iml" />
     </modules>

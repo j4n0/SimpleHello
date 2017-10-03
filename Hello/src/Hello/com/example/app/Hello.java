@@ -14,20 +14,25 @@ public class Hello
 
     public static void main(String[] args) {
         LOGGER.info("Hello World!");
+        serviceLookup();
+        serviceStream();
+    }
 
-        // lookup
+    public Hello(){}
+
+    private static void serviceLookup(){
         Integer[] values1 = {1,9,7,3};
         ServiceLoader<Sortable> loader = ServiceLoader.load(Sortable.class);
         Sortable sortable = loader.iterator().next();
         sortable.sort(values1);
         System.out.println(Arrays.toString(values1));
+    }
 
-        // stream
+    private static void serviceStream(){
         Integer[] values2 = {1,9,7,3};
         Stream<ServiceLoader.Provider<Sortable>> providers = ServiceLoader.load(Sortable.class).stream();
         final Optional<ServiceLoader.Provider<Sortable>> sortable2 = providers.findFirst();
         sortable2.get().get().sort(values2);
         System.out.println(Arrays.toString(values2));
     }
-    public Hello(){}
 }
