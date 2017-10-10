@@ -1,14 +1,12 @@
 package com.example.junit;
 
+import com.example.app.Hello;
 import com.example.logger.HelloLogger;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-import com.example.app.Hello;
-
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Optional;
 import java.util.ServiceLoader;
